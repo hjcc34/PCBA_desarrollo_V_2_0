@@ -1,0 +1,47 @@
+/* 
+ * File:   CFG_PWM.h
+ * Author: Familia CS
+ *
+ * Created on 20 de diciembre de 2024, 18:54
+ */
+
+#ifndef CFG_PWM_H
+#define	CFG_PWM_H
+
+#define _XTAL_FREQ 48000000UL
+
+#include <xc.h>                                                                 // include processor files - each processor file is guarded.
+
+uint8_t DATOADC_PWM_AN_T,DATOADC_PWM_AN_T2,DATOADCL_PWM2_AN1,DATOADCL_PWM3_AN1,DATOADC_PWM_AN1,DATOADCL_PWM2_AN3,DATOADCL_PWM3_AN3;
+uint8_t DATOADC_PWM_AN3,i;
+
+#define SINE_SAMPLES 128
+
+const uint16_t sine_table[SINE_SAMPLES] = {
+512,537,562,587,612,637,661,685,
+709,732,755,778,800,822,843,864,
+884,904,923,942,960,978,995,1011,
+1026,1040,1053,1066,1077,1088,1098,1107,
+1115,1122,1128,1133,1137,1140,1142,1143,
+1143,1142,1140,1137,1133,1128,1122,1115,
+1107,1098,1088,1077,1066,1053,1040,1026,
+1011,995,978,960,942,923,904,884,
+864,843,822,800,778,755,732,709,
+685,661,637,612,587,562,537,512,
+486,461,436,411,386,361,337,313,
+289,266,243,220,198,176,155,134,
+114,94,75,56,38,20,3,0,
+0,3,20,38,56,75,94,114,
+134,155,176,198,220,243,266,289,
+313,337,361,386,411,436,461,486
+};
+
+#define     PWMCCP1     PORTCbits.RC2;
+#define     PWMCCP2     PORTCbits.RC1;
+
+void PWM_Inicializar(void);
+void PWM_IN_AN1(void);
+void PWM_sin_50hz(void);
+void PWM_SetDuty10(uint16_t);
+
+#endif	/* CFG_PWM_H */
