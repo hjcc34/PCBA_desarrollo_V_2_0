@@ -17,6 +17,7 @@ endforeach()
 
 set(PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_compile
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/I2C.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/PWM.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c")
 set_source_files_properties(${PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
 set(PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_link)

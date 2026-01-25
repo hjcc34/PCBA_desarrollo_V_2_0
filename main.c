@@ -8,7 +8,7 @@
 #include <xc.h>
 #include "CFG_PIC18F2550/CFG_PIC18F2550.h"
 #include "drivers/CFG_I2C.h"
-
+#include "drivers/CFG_PWM.h"
 
 int main()
 {
@@ -38,7 +38,9 @@ int main()
     INTCONbits.GIE = 1;                                                         //Activo interrupciones enmascarables
     INTCONbits.PEIE = 1;                                                        //Activo interrupciones de perif�ricos
 //***************************Inicializar I2C************************************
-    I2C_Initialize();    
+    I2C_Initialize();
+//***************************Inicializar PWM************************************
+    PWM_Inicializar();        
 //***************************** Inicio de programa *****************************
     while (1)
     {
