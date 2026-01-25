@@ -5,8 +5,8 @@
  * Created on 10 de noviembre de 2024, 0:14
  */
 
-#ifndef I2C_H
-#define	I2C_H
+#ifndef CFG_I2C_H
+#define	CFG_I2C_H
 
 #define _XTAL_FREQ 48000000UL
 
@@ -42,5 +42,5 @@ void I2C_PUNTERO(unsigned char address, unsigned char puntero);
 void I2C_CFG_REG(unsigned char address,unsigned char registro,unsigned char dataM,unsigned char dataL);
 void I2C_Lectura(uint8_t address);
 
-#endif	/* I2C_H */
+#endif	/* CFG_I2C_H */
 
