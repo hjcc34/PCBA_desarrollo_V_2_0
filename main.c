@@ -6,6 +6,8 @@
  */
 
 #include <xc.h>
+#include "CFG_PIC18F2550/CFG_PIC18F2550.h"
+
 
 int main()
 {
