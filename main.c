@@ -11,6 +11,7 @@
 #include "drivers/CFG_PWM.h"
 #include "drivers/CFG_ADC.h"
 #include "drivers/CFG_UART.h"
+#include "display/CFG_OLED_SSD1306.h"
 
 int main()
 {
@@ -46,7 +47,10 @@ int main()
 //***************************Inicializar ADC************************************
     ADC_Configuracion();
 //***************************Inicializar UART************************************
-    Uart_Init();        
+    Uart_Init();
+//************************** Configuracion OLED ********************************
+    OLED_Init();
+    OLED_Clear();            
 //***************************** Inicio de programa *****************************
     while (1)
     {
