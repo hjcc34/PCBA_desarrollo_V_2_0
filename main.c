@@ -10,6 +10,7 @@
 #include "drivers/CFG_I2C.h"
 #include "drivers/CFG_PWM.h"
 #include "drivers/CFG_ADC.h"
+#include "drivers/CFG_UART.h"
 
 int main()
 {
@@ -44,6 +45,8 @@ int main()
     PWM_Inicializar();
 //***************************Inicializar ADC************************************
     ADC_Configuracion();
+//***************************Inicializar UART************************************
+    Uart_Init();        
 //***************************** Inicio de programa *****************************
     while (1)
     {
