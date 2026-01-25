@@ -34,5 +34,10 @@ int main()
     PIE2bits.HLVDIE = 0;                                                        //High/Low-Voltage Detect Interrupt Enable bit 
     INTCONbits.GIE = 1;                                                         //Activo interrupciones enmascarables
     INTCONbits.PEIE = 1;                                                        //Activo interrupciones de perif�ricos
+//***************************** Inicio de programa *****************************
+    while (1)
+    {
+
+    }
     return 0;
 }
