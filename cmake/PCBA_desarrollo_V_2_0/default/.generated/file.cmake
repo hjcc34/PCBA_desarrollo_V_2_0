@@ -15,7 +15,9 @@ foreach(source_file ${PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_assemb
         set_source_files_properties(${source_file} PROPERTIES INCLUDE_DIRECTORIES "$<PATH:NORMAL_PATH,$<PATH:REMOVE_FILENAME,${source_file}>>")
 endforeach()
 
-set(PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_compile "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c")
+set(PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_compile
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/I2C.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c")
 set_source_files_properties(${PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
 set(PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_link)
 set(PCBA_desarrollo_V_2_0_default_image_name "default.elf")
