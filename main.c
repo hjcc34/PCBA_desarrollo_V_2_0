@@ -9,6 +9,7 @@
 #include "CFG_PIC18F2550/CFG_PIC18F2550.h"
 #include "drivers/CFG_I2C.h"
 #include "drivers/CFG_PWM.h"
+#include "drivers/CFG_ADC.h"
 
 int main()
 {
@@ -40,7 +41,9 @@ int main()
 //***************************Inicializar I2C************************************
     I2C_Initialize();
 //***************************Inicializar PWM************************************
-    PWM_Inicializar();        
+    PWM_Inicializar();
+//***************************Inicializar ADC************************************
+    ADC_Configuracion();
 //***************************** Inicio de programa *****************************
     while (1)
     {
