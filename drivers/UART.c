@@ -59,7 +59,7 @@ void Uart_Read_String(char* Buf, unsigned int s_buf)
     char c;
 
     // Limpiar buffer antes de usarlo
-    memset(Buf, 0, s_buf);
+    //memset(Buf, 0, s_buf);
 
     while(1)
     {
