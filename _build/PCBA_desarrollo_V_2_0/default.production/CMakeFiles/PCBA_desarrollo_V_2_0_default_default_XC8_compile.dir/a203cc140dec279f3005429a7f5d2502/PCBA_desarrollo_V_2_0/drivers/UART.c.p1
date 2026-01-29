@@ -86,7 +86,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TXREG `Vuc ~T0 @X0 0 e@4013 ]
 "4459
 [v _RCREG `Vuc ~T0 @X0 0 e@4014 ]
-"9706
+"29 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\include\c99/string.h
+[v _memset `(*v ~T0 @X0 0 ef3`*v`i`ui ]
+"9706 C:/Users/Hermes Colmenares/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\pic\include\proc/pic18f2550.h
 [v _TRMT `Vb ~T0 @X0 0 e@32097 ]
 "52 C:/Users/Hermes Colmenares/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\pic\include\proc/pic18f2550.h
 [; <" UFRM equ 0F66h ;# ">
@@ -404,21 +406,21 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSH equ 0FFEh ;# ">
 "7710
 [; <" TOSU equ 0FFFh ;# ">
-"40 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\drivers/CFG_UART.h
+"42 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\drivers/CFG_UART.h
 [v _buffer_rx `Vuc ~T0 @X0 -> 20 `i e ]
-"41
+"43
 [v _buffer_rx_v `Vuc ~T0 @X0 -> 80 `i e ]
-"42
+"44
 [v _index_rx `Vuc ~T0 @X0 1 e ]
 [i _index_rx
 -> -> 0 `i `uc
 ]
-"43
+"45
 [v _hay_cadena `Vuc ~T0 @X0 1 e ]
 [i _hay_cadena
 -> -> 0 `i `uc
 ]
-"45
+"47
 [v _RXDATO `uc ~T0 @X0 1 e ]
 "11 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\drivers\UART.c
 [v _Uart_Init `(v ~T0 @X0 1 ef ]
@@ -447,7 +449,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "22
 [e = . . _TXSTAbits 0 5 -> -> 1 `i `uc ]
 "23
-[e :UE 351 ]
+[e :UE 352 ]
 }
 "25
 [v _Uart_Available `(s ~T0 @X0 1 ef ]
@@ -457,9 +459,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 "27
 [e ) -> ? != -> . . _PIR1bits 0 5 `i -> 0 `i : -> 1 `i -> 0 `i `s ]
-[e $UE 352  ]
+[e $UE 353  ]
 "28
-[e :UE 352 ]
+[e :UE 353 ]
 }
 "30
 [v _Uart_Send_Char `(v ~T0 @X0 1 ef1`uc ]
@@ -471,15 +473,15 @@ Version 4.0 HI-TECH Software Intermediate Code
 "31
 [f ]
 "32
-[e $U 354  ]
-[e :U 355 ]
-[e :U 354 ]
-[e $ == -> . . _TXSTAbits 0 1 `i -> 0 `i 355  ]
+[e $U 355  ]
 [e :U 356 ]
+[e :U 355 ]
+[e $ == -> . . _TXSTAbits 0 1 `i -> 0 `i 356  ]
+[e :U 357 ]
 "33
 [e = _TXREG -> _txData `uc ]
 "34
-[e :UE 353 ]
+[e :UE 354 ]
 }
 "36
 [v _Uart_Send_String `(v ~T0 @X0 1 ef1`*uc ]
@@ -491,20 +493,20 @@ Version 4.0 HI-TECH Software Intermediate Code
 "37
 [f ]
 "38
-[e $U 358  ]
-[e :U 359 ]
+[e $U 359  ]
+[e :U 360 ]
 "39
 {
 "40
 [e ( _Uart_Send_Char (1 *U ++ _info * -> -> 1 `i `x -> -> # *U _info `i `x ]
 "41
 }
-[e :U 358 ]
+[e :U 359 ]
 "38
-[e $ != -> *U _info `i -> 0 `i 359  ]
-[e :U 360 ]
+[e $ != -> *U _info `i -> 0 `i 360  ]
+[e :U 361 ]
 "42
-[e :UE 357 ]
+[e :UE 358 ]
 }
 "44
 [v _Uart_Read `(uc ~T0 @X0 1 ef ]
@@ -513,13 +515,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _Uart_Read ]
 [f ]
 "46
-[e $U 362  ]
-[e :U 363 ]
-[e :U 362 ]
-[e $ == -> . . _PIR1bits 0 5 `i -> 0 `i 363  ]
+[e $U 363  ]
 [e :U 364 ]
+[e :U 363 ]
+[e $ == -> . . _PIR1bits 0 5 `i -> 0 `i 364  ]
+[e :U 365 ]
 "47
-[e $ ! == -> . . _RCSTAbits 0 1 `i -> 1 `i 365  ]
+[e $ ! == -> . . _RCSTAbits 0 1 `i -> 1 `i 366  ]
 "48
 {
 "49
@@ -528,14 +530,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
 "51
 }
-[e :U 365 ]
+[e :U 366 ]
 "52
 [e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
 "53
 [e ) -> _RCREG `uc ]
-[e $UE 361  ]
+[e $UE 362  ]
 "54
-[e :UE 361 ]
+[e :UE 362 ]
 }
 "56
 [v _Uart_Read_String `(v ~T0 @X0 1 ef2`*uc`ui ]
@@ -552,40 +554,42 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = _i -> -> 0 `i `ui ]
 "59
 [v _c `uc ~T0 @X0 1 a ]
+"62
+[e ( _memset (3 , , -> _Buf `*v -> 0 `i _s_buf ]
 "64
-[e :U 368 ]
+[e :U 369 ]
 "65
 {
 "66
 [e = _c ( _Uart_Read ..  ]
 "68
-[e $ ! == -> _c `ui -> 10 `ui 370  ]
+[e $ ! == -> _c `ui -> 10 `ui 371  ]
 "69
-[e $U 369  ]
-[e :U 370 ]
-"71
-[e $ ! == -> _c `ui -> 13 `ui 371  ]
-"72
-[e $U 367  ]
+[e $U 370  ]
 [e :U 371 ]
+"71
+[e $ ! == -> _c `ui -> 13 `ui 372  ]
+"72
+[e $U 368  ]
+[e :U 372 ]
 "74
-[e $ ! < _i - _s_buf -> -> 1 `i `ui 372  ]
+[e $ ! < _i - _s_buf -> -> 1 `i `ui 373  ]
 "75
 {
 "76
 [e = *U + _Buf * -> ++ _i -> -> 1 `i `ui `ux -> -> # *U _Buf `ui `ux _c ]
 "77
 }
-[e :U 372 ]
+[e :U 373 ]
 "78
 }
-[e :U 367 ]
-[e $U 368  ]
-[e :U 369 ]
+[e :U 368 ]
+[e $U 369  ]
+[e :U 370 ]
 "80
 [e = *U + _Buf * -> _i `ux -> -> # *U _Buf `ui `ux -> -> 0 `ui `uc ]
 "81
-[e :UE 366 ]
+[e :UE 367 ]
 }
 "84
 [v _Uart_Read_Substring `(v ~T0 @X0 1 ef4`*uc`*uc`ui`ui ]
@@ -606,8 +610,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 [v _lt `i ~T0 @X0 1 a ]
 [e = _lt -> _inc `i ]
-[e $U 377  ]
-[e :U 374 ]
+[e $U 378  ]
+[e :U 375 ]
 "88
 {
 "89
@@ -617,14 +621,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 "91
 }
 [e ++ _lt -> 1 `i ]
-[e :U 377 ]
-[e $ <= -> _lt `ui _fn 374  ]
-[e :U 375 ]
+[e :U 378 ]
+[e $ <= -> _lt `ui _fn 375  ]
+[e :U 376 ]
 }
 "92
 [e = *U + _vc * -> _pt `x -> -> # *U _vc `i `x -> -> 0 `ui `uc ]
 "93
-[e :UE 373 ]
+[e :UE 374 ]
 }
 "95
 [v _Uart_Read_StringUntil `(v ~T0 @X0 1 ef3`uc`*uc`ui ]
@@ -643,8 +647,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "98
 [v _c `uc ~T0 @X0 1 a ]
 "100
-[e $U 379  ]
-[e :U 380 ]
+[e $U 380  ]
+[e :U 381 ]
 "101
 {
 "102
@@ -652,20 +656,20 @@ Version 4.0 HI-TECH Software Intermediate Code
 "103
 [e = *U + _buf * -> ++ _i -> -> 1 `i `ui `ux -> -> # *U _buf `ui `ux _c ]
 "105
-[e $ ! == -> _c `i -> _stop_c `i 382  ]
+[e $ ! == -> _c `i -> _stop_c `i 383  ]
 "106
-[e $U 381  ]
-[e :U 382 ]
+[e $U 382  ]
+[e :U 383 ]
 "107
 }
-[e :U 379 ]
+[e :U 380 ]
 "100
-[e $ < _i - _st_size -> -> 1 `i `ui 380  ]
-[e :U 381 ]
+[e $ < _i - _st_size -> -> 1 `i `ui 381  ]
+[e :U 382 ]
 "109
 [e = *U + _buf * -> _i `ux -> -> # *U _buf `ui `ux -> -> 0 `ui `uc ]
 "110
-[e :UE 378 ]
+[e :UE 379 ]
 }
 "113
 [v _putch `(v ~T0 @X0 1 ef1`uc ]
@@ -677,13 +681,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 "114
 [f ]
 "115
-[e $U 384  ]
-[e :U 385 ]
-[e :U 384 ]
-[e $ ! _TRMT 385  ]
+[e $U 385  ]
 [e :U 386 ]
+[e :U 385 ]
+[e $ ! _TRMT 386  ]
+[e :U 387 ]
 "116
 [e = _TXREG -> _c `uc ]
 "117
-[e :UE 383 ]
+[e :UE 384 ]
 }
