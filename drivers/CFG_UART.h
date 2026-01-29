@@ -32,6 +32,8 @@
 #define	CFG_UART_H
 
 #include <xc.h>                                                                 // include processor files - each processor file is guarded.
+#include <string.h>
+
 
 #define LF          0x0A
 #define CR          0x0D
