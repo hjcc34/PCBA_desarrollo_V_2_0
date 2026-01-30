@@ -1,6 +1,7 @@
 #include "CFG_DS1307.h"
 #include "../drivers/CFG_I2C.h"
 #include "../utils/CFG_BCD_TO_DEC_TO_BCD.h"
+#include "../display/CFG_LCD_16x2.h"
 
 //******************************************************************************
 //****************************CFG DS1307 1seg***********************************
