@@ -8,7 +8,7 @@
 #ifndef CFG_DS1307_H
 #define	CFG_DS1307_H
 
-#include <xc.h> 
+#include <xc.h>
 
 #define   _Dir_DS1307_W     0xD0
 #define   _Dir_DS1307_R     0xD1

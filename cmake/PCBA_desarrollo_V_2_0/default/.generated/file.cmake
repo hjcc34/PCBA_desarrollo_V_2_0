@@ -18,11 +18,13 @@ endforeach()
 set(PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_compile
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../Display/OLED.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/DS1307.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/INA219.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/ADC.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/I2C.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/PWM.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/UART.c"
-    "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c")
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../utils/BCD_CONVER.c")
 set_source_files_properties(${PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
 set(PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_link)
 set(PCBA_desarrollo_V_2_0_default_image_name "default.elf")

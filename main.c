@@ -13,6 +13,7 @@
 #include "drivers/CFG_UART.h"
 #include "display/CFG_OLED_SSD1306.h"
 #include "devices/CFG_DS1307.h"
+#include "devices/CFG_INA219.h"
 
 int main()
 {
@@ -53,7 +54,9 @@ int main()
     OLED_Init();
     OLED_Clear();
 //-------------------------Configuracion DS1307---------------------------------    
-    CFG_DS1307();                
+    CFG_DS1307();
+//----------------------Configuracion INA219------------------------------------
+    CFG_INA219_32V_3A();                
 //***************************** Inicio de programa *****************************
     while (1)
     {
