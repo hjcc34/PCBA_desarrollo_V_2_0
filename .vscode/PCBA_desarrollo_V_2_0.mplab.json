@@ -6,6 +6,7 @@
             "id": "conf1",
             "device": "PIC18F2550",
             "imagePath": "./out/PCBA_desarrollo_V_2_0/default.elf",
+            "tool": "Simulator",
             "packs": [
                 {
                     "name": "PIC18Fxxxx_DFP",

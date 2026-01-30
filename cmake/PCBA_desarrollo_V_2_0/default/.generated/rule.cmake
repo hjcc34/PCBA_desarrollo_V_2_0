@@ -29,6 +29,7 @@ function(PCBA_desarrollo_V_2_0_default_default_XC8_assemble_rule target)
     target_compile_definitions(${target}
         PRIVATE "__18F2550__"
         PRIVATE "__DEBUG=1"
+        PRIVATE "__MPLAB_DEBUGGER_SIMULATOR=1"
         PRIVATE "XPRJ_default=default")
 endfunction()
 function(PCBA_desarrollo_V_2_0_default_default_XC8_assemblePreprocess_rule target)
@@ -59,6 +60,7 @@ function(PCBA_desarrollo_V_2_0_default_default_XC8_assemblePreprocess_rule targe
     target_compile_definitions(${target}
         PRIVATE "__18F2550__"
         PRIVATE "__DEBUG=1"
+        PRIVATE "__MPLAB_DEBUGGER_SIMULATOR=1"
         PRIVATE "XPRJ_default=default")
 endfunction()
 function(PCBA_desarrollo_V_2_0_default_default_XC8_compile_rule target)
@@ -88,6 +90,7 @@ function(PCBA_desarrollo_V_2_0_default_default_XC8_compile_rule target)
     target_compile_definitions(${target}
         PRIVATE "__18F2550__"
         PRIVATE "__DEBUG=1"
+        PRIVATE "__MPLAB_DEBUGGER_SIMULATOR=1"
         PRIVATE "XPRJ_default=default")
 endfunction()
 function(PCBA_desarrollo_V_2_0_default_link_rule target)
