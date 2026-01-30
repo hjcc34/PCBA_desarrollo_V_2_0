@@ -12,6 +12,7 @@
 #include "drivers/CFG_ADC.h"
 #include "drivers/CFG_UART.h"
 #include "display/CFG_OLED_SSD1306.h"
+#include "devices/CFG_DS1307.h"
 
 int main()
 {
@@ -50,7 +51,9 @@ int main()
     Uart_Init();
 //************************** Configuracion OLED ********************************
     OLED_Init();
-    OLED_Clear();            
+    OLED_Clear();
+//-------------------------Configuracion DS1307---------------------------------    
+    CFG_DS1307();                
 //***************************** Inicio de programa *****************************
     while (1)
     {
