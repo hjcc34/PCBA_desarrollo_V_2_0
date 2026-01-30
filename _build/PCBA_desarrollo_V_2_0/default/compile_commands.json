@@ -13,6 +13,12 @@
 },
 {
   "directory": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F2550__ -D__DEBUG=1 -D__MPLAB_DEBUGGER_SIMULATOR=1 -c -mcpu=18F2550 \"-mdfp=C:/Users/Hermes Colmenares/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PCBA_desarrollo_V_2_0_default_default_XC8_compile.dir\\E_\\Mis_Proyectos\\PCBA_desarrollo_V_2_0\\PCBA_desarrollo_V_2_0\\devices\\INA219.c.p1 -c \"E:\\Mis Proyectos\\PCBA_desarrollo_V_2_0\\PCBA_desarrollo_V_2_0\\devices\\INA219.c\"",
+  "file": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/devices/INA219.c",
+  "output": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default/CMakeFiles/PCBA_desarrollo_V_2_0_default_default_XC8_compile.dir/E_/Mis_Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/devices/INA219.c.p1"
+},
+{
+  "directory": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default",
   "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F2550__ -D__DEBUG=1 -D__MPLAB_DEBUGGER_SIMULATOR=1 -c -mcpu=18F2550 \"-mdfp=C:/Users/Hermes Colmenares/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PCBA_desarrollo_V_2_0_default_default_XC8_compile.dir\\E_\\Mis_Proyectos\\PCBA_desarrollo_V_2_0\\PCBA_desarrollo_V_2_0\\drivers\\ADC.c.p1 -c \"E:\\Mis Proyectos\\PCBA_desarrollo_V_2_0\\PCBA_desarrollo_V_2_0\\drivers\\ADC.c\"",
   "file": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/drivers/ADC.c",
   "output": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default/CMakeFiles/PCBA_desarrollo_V_2_0_default_default_XC8_compile.dir/E_/Mis_Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/drivers/ADC.c.p1"
@@ -40,5 +46,11 @@
   "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F2550__ -D__DEBUG=1 -D__MPLAB_DEBUGGER_SIMULATOR=1 -c -mcpu=18F2550 \"-mdfp=C:/Users/Hermes Colmenares/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PCBA_desarrollo_V_2_0_default_default_XC8_compile.dir\\E_\\Mis_Proyectos\\PCBA_desarrollo_V_2_0\\PCBA_desarrollo_V_2_0\\main.c.p1 -c \"E:\\Mis Proyectos\\PCBA_desarrollo_V_2_0\\PCBA_desarrollo_V_2_0\\main.c\"",
   "file": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/main.c",
   "output": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default/CMakeFiles/PCBA_desarrollo_V_2_0_default_default_XC8_compile.dir/E_/Mis_Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/main.c.p1"
+},
+{
+  "directory": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F2550__ -D__DEBUG=1 -D__MPLAB_DEBUGGER_SIMULATOR=1 -c -mcpu=18F2550 \"-mdfp=C:/Users/Hermes Colmenares/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PCBA_desarrollo_V_2_0_default_default_XC8_compile.dir\\E_\\Mis_Proyectos\\PCBA_desarrollo_V_2_0\\PCBA_desarrollo_V_2_0\\utils\\BCD_CONVER.c.p1 -c \"E:\\Mis Proyectos\\PCBA_desarrollo_V_2_0\\PCBA_desarrollo_V_2_0\\utils\\BCD_CONVER.c\"",
+  "file": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/utils/BCD_CONVER.c",
+  "output": "E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default/CMakeFiles/PCBA_desarrollo_V_2_0_default_default_XC8_compile.dir/E_/Mis_Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/utils/BCD_CONVER.c.p1"
 }
 ]
