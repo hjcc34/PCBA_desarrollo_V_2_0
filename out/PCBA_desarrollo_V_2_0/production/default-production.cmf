@@ -11,11 +11,6 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-idloc IDLOC 5 200000 200000 8 1 1
-init CODE 0 7FFC 7FFC 4 1 2
-reset_vec CODE 0 0 0 4 1 2
-config CONFIG 4 300000 300000 E 1 1
 $E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 cinit CODE 0 7A86 7A86 4E 1 2
 idloc IDLOC 5 200000 200000 8 1 1
@@ -42,6 +37,11 @@ idataBANK0 CODE 0 79E7 79E7 2D 1 1
 dataBANK0 BANK0 1 97 97 2D 1 1
 bssCOMRAM COMRAM 1 1 1 59 1 1
 mediumconst MEDIUMCONST 0 7D14 7D14 2E8 1 2
+config CONFIG 4 300000 300000 E 1 1
+$C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+idloc IDLOC 5 200000 200000 8 1 1
+init CODE 0 7FFC 7FFC 4 1 2
+reset_vec CODE 0 0 0 4 1 2
 config CONFIG 4 300000 300000 E 1 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -279,46 +279,46 @@ $E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarroll
 7B98 text0 CODE >59:E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\main.c
 7B9C text0 CODE >61:E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\main.c
 7B9C text0 CODE >64:E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\main.c
-7A86 cinit CODE >4200:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A86 cinit CODE >4202:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A86 cinit CODE >4205:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A86 cinit CODE >4502:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A88 cinit CODE >4503:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A8A cinit CODE >4504:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A8C cinit CODE >4505:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A8E cinit CODE >4506:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A90 cinit CODE >4507:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A92 cinit CODE >4508:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A96 cinit CODE >4509:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A9A cinit CODE >4510:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A9A cinit CODE >4511:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7A9C cinit CODE >4512:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AA0 cinit CODE >4513:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AA2 cinit CODE >4514:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AA4 cinit CODE >4515:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AA6 cinit CODE >4519:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AAA cinit CODE >4520:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AAC cinit CODE >4521:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AAC cinit CODE >4522:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AAE cinit CODE >4523:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AB0 cinit CODE >4524:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AB2 cinit CODE >4527:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AB6 cinit CODE >4528:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AB8 cinit CODE >4529:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AB8 cinit CODE >4530:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7ABA cinit CODE >4531:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7ABC cinit CODE >4532:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7ABE cinit CODE >4535:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AC2 cinit CODE >4536:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AC4 cinit CODE >4537:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AC4 cinit CODE >4538:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AC6 cinit CODE >4539:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AC8 cinit CODE >4540:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7ACA cinit CODE >4546:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7ACA cinit CODE >4549:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7ACC cinit CODE >4550:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7ACE cinit CODE >4551:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
-7AD0 cinit CODE >4552:C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_1.s
+7A86 cinit CODE >4200:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A86 cinit CODE >4202:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A86 cinit CODE >4205:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A86 cinit CODE >4502:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A88 cinit CODE >4503:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A8A cinit CODE >4504:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A8C cinit CODE >4505:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A8E cinit CODE >4506:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A90 cinit CODE >4507:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A92 cinit CODE >4508:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A96 cinit CODE >4509:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A9A cinit CODE >4510:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A9A cinit CODE >4511:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7A9C cinit CODE >4512:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AA0 cinit CODE >4513:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AA2 cinit CODE >4514:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AA4 cinit CODE >4515:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AA6 cinit CODE >4519:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AAA cinit CODE >4520:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AAC cinit CODE >4521:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AAC cinit CODE >4522:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AAE cinit CODE >4523:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AB0 cinit CODE >4524:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AB2 cinit CODE >4527:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AB6 cinit CODE >4528:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AB8 cinit CODE >4529:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AB8 cinit CODE >4530:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7ABA cinit CODE >4531:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7ABC cinit CODE >4532:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7ABE cinit CODE >4535:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AC2 cinit CODE >4536:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AC4 cinit CODE >4537:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AC4 cinit CODE >4538:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AC6 cinit CODE >4539:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AC8 cinit CODE >4540:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7ACA cinit CODE >4546:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7ACA cinit CODE >4549:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7ACC cinit CODE >4550:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7ACE cinit CODE >4551:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
+7AD0 cinit CODE >4552:C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_1.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -356,12 +356,12 @@ _LATA F89 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0
 _LATB F8A 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _LATC F8B 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _TRMT 7D61 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-___sp 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+___sp 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 _main 7B38 0 CODE 0 text0 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _nlow 56 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-___stack_hi 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-___stack_lo 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-start 7FFC 0 CODE 0 init C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+___stack_hi 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+___stack_lo 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+start 7FFC 0 CODE 0 init C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _byte_3_h 49 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _byte_3_t 4A 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
@@ -377,11 +377,11 @@ _T0CONbits FD5 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_
 _ResultadoINA_A_NEG 1F 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __end_of_OLED_Data 794A 0 CODE 0 text5 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __end_of_OLED_Init 7D14 0 CODE 0 text3 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-__accesstop 60 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-intlevel0 0 0 CODE 0 text C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-intlevel1 0 0 CODE 0 text C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-intlevel2 0 0 CODE 0 text C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-intlevel3 0 0 CODE 0 text C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+__accesstop 60 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+intlevel0 0 0 CODE 0 text C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+intlevel1 0 0 CODE 0 text C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+intlevel2 0 0 CODE 0 text C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+intlevel3 0 0 CODE 0 text C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _datoadc 83 0 BANK0 1 bssBANK0 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
@@ -399,8 +399,8 @@ _OLED_Data 792C 0 CODE 0 text5 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desar
 _OLED_Init 7C50 0 CODE 0 text3 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _ADRESH FC4 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _ADRESL FC3 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 _I2CDATOLSB 5 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _I2CDATOMSB 1 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _CCPR1L FBE 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
@@ -442,7 +442,7 @@ _SSPADD FC8 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2
 _SSPBUF FC9 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _enable_w 4B 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __end_of_OLED_Clear 7A86 0 CODE 0 text4 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-isa$xinst 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+isa$xinst 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 _buffer_rx_v 100 0 BANK1 1 bssBANK1 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Hbank0 0 0 ABS 0 bank0 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Hbank1 0 0 ABS 0 bank1 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
@@ -590,14 +590,14 @@ __Lsivt_lo 18 0 CODE 0 sivt_lo E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desar
 _read_datos 7D 0 BANK0 1 bssBANK0 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _caracter0_datos 74 0 BANK0 1 bssBANK0 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Lfarbss 0 0 FARRAM 0 farbss E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-___inthi_stack_hi 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-___inthi_stack_lo 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+___inthi_stack_hi 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+___inthi_stack_lo 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 __Lfardata 0 0 FARRAM 0 fardata E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-isa$std 1 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+isa$std 1 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 __end_of_I2C_Write_ 79E6 0 CODE 0 text11 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _unidad 42 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-stackhi 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-stacklo 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+stackhi 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+stacklo 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 _DEC_BCD_RESULTADO 46 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Lintcode 8 0 CODE 0 intcode E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Lintret 0 0 ABS 0 intret E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
@@ -651,7 +651,7 @@ __Ltext13 0 0 ABS 0 text13 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarroll
 __Ltext14 0 0 ABS 0 text14 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Ltext15 0 0 ABS 0 text15 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _sine_table 7EF5 0 MEDIUMCONST 0 mediumconst E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 _caracter1_direccion B2 0 BANK0 1 dataBANK0 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Lpowerup 0 0 CODE 0 powerup E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
@@ -661,11 +661,11 @@ __H__absolute__ 0 0 ABS 0 __absolute__ E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PC
 _DATOADCH_PWM_AN1 13 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 _DATOADCH_PWM_AN3 F 0 COMRAM 1 bssCOMRAM E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Lreset_vec 0 0 CODE 0 reset_vec E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-___heap_hi 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-___heap_lo 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+___heap_hi 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+___heap_lo 0 0 ABS 0 - C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 ___param_bank 0 0 ABS 0 - E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
-___intlo_stack_hi 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
-___intlo_stack_lo 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcCs9b4.2\driver_tmp_9.o
+___intlo_stack_hi 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
+___intlo_stack_lo 0 0 STACK 2 stack C:\Users\HERMES~1\AppData\Local\Temp\xcAs1oc.0\driver_tmp_9.o
 _dato_adc_mv 87 0 BANK0 1 bssBANK0 E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
 __end_of__initialization 7ACA 0 CODE 0 cinit E:\Mis Proyectos\PCBA_desarrollo_V_2_0\PCBA_desarrollo_V_2_0\out\PCBA_desarrollo_V_2_0\production\default-production.o
