@@ -12,6 +12,7 @@
 #include "drivers/CFG_ADC.h"
 #include "drivers/CFG_UART.h"
 #include "display/CFG_OLED_SSD1306.h"
+#include "display/CFG_LCD_16x2.h"
 #include "devices/CFG_DS1307.h"
 #include "devices/CFG_INA219.h"
 
