@@ -1,4 +1,0 @@
-E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default/CMakeFiles/PCBA_desarrollo_V_2_0_default_default_XC8_compile.dir
-E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default/CMakeFiles/PCBA_desarrollo_V_2_0_default_image_3Akrr0IX.dir
-E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default/CMakeFiles/edit_cache.dir
-E:/Mis Proyectos/PCBA_desarrollo_V_2_0/PCBA_desarrollo_V_2_0/_build/PCBA_desarrollo_V_2_0/default/CMakeFiles/rebuild_cache.dir
