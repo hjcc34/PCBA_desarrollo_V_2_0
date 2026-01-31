@@ -15,6 +15,7 @@
 //#include "display/CFG_LCD_16x2.h"
 #include "devices/CFG_DS1307.h"
 #include "devices/CFG_INA219.h"
+//#include "devices/CFG_24LC08B.h"
 
 int main()
 {
@@ -57,7 +58,9 @@ int main()
 //-------------------------Configuracion DS1307---------------------------------    
     CFG_DS1307();
 //----------------------Configuracion INA219------------------------------------
-    CFG_INA219_32V_3A();                
+    CFG_INA219_32V_3A();
+//----------------------Configuracion 24LC08B-----------------------------------
+    //CFG_24LC08B();
 //***************************** Inicio de programa *****************************
     while (1)
     {
