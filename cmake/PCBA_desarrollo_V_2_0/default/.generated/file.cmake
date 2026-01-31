@@ -18,6 +18,7 @@ endforeach()
 set(PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_compile
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../Display/LCD_16x2.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../Display/OLED.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/24LC08B.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/DS1307.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/INA219.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/ADC.c"
