@@ -18,7 +18,11 @@ endforeach()
 set(PCBA_desarrollo_V_2_0_default_default_XC8_FILE_TYPE_compile
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../Display/LCD_16x2.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../Display/OLED.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/24LC08B.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/AHT0.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/BMP280.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/DS1307.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/HC_05.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../devices/INA219.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/ADC.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../drivers/I2C.c"
