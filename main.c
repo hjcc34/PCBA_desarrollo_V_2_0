@@ -16,6 +16,8 @@
 #include "devices/CFG_DS1307.h"
 #include "devices/CFG_INA219.h"
 //#include "devices/CFG_24LC08B.h"
+#include "devices/CFG_HC_05.h"
+#include "devices/CFG_AHT20.h"
 
 int main()
 {
@@ -61,6 +63,10 @@ int main()
     CFG_INA219_32V_3A();
 //----------------------Configuracion 24LC08B-----------------------------------
     //CFG_24LC08B();
+//----------------------Configuracion AHT20------------------------------------
+    aht20_ini();    
+//----------------------Configuracion HC-05-------------------------------------
+    CFG_HC_05();
 //***************************** Inicio de programa *****************************
     while (1)
     {

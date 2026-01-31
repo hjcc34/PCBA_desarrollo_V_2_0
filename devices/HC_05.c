@@ -7,7 +7,7 @@
 
 
 #include "CFG_HC_05.h"
-#include "../drivers/CFG_RS232.h"
+#include "../drivers/CFG_UART.h"
 
 //----------------------- Comunicacion MASTER con HC-05-------------------------
 void COM_HC_05_MASTER(void)
